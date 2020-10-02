@@ -134,6 +134,7 @@ a:link {
 .container {
     width: 80%;
     margin: 0 auto;
+   
 }
 
 .top-content {
@@ -269,6 +270,7 @@ button{
 .section1{
     padding:2%;
     border-bottom: dashed 1px;
+   
 }
 .section2{
     padding:2%;
