@@ -263,22 +263,34 @@ button{
     padding:.9% 2% .9% 2%;
 }
 
-.section1{
-    display:flex;
-    justify-content: space-around;
-}
-.section2{
-     display:flex;
-    justify-content: space-around;
-
-}
-.section3{
-    display:flex;
-    justify-content: space-around;
-
-}
-.section4{
-
+.aboutCont1{
     display:flex;
     justify-content: column;
+    border-top: dashed 1px;
+
 }
+
+.section1{
+    padding:2%;
+    border-bottom: dashed 1px;
+}
+.section2{
+    padding:2%;
+    border-bottom: dashed 1px;
+    margin-left:2vh;
+}
+
+.aboutCont2{
+    display:flex;
+    justify-content: column;
+
+}
+ .section3{
+    padding:2%;
+    border-bottom: dashed 1px;
+}
+.section4{
+    padding:2%;
+    border-bottom: dashed 1px;
+    margin-left:2vh;
+} 
