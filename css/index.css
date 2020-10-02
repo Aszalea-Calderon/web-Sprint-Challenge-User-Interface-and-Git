@@ -69,7 +69,6 @@ p {
 
 
 
-
 nav {
     
     display:flex;
@@ -77,14 +76,8 @@ nav {
     align-content: space-around;
     margin:5%;
     padding:5%;
-    
 }
 
-.a nav{
-    color:black;
-    text-decoration: none;
-    
-}
 
 
 .aHref{
@@ -94,23 +87,25 @@ nav {
     align-items: flex-end;
     padding: 20px 2%;
     font-size: 14px;
-    color:black;
+    /* color:black; */
 }
 
 a:link {
     text-decoration: none;
+    
   }
   
   a:visited {
     text-decoration: none;
+    /* color:gray; */
   }
   
-  a:hover {
+  /* a:hover {
     background-color:white;
     border:black 1px solid;
     border-radius:5px;
     padding:.9% 2% .9% 2%;
-  }
+  } */
   
   a:active {
     color:gray;
@@ -122,7 +117,6 @@ a:link {
     justify-content: flex-end;
     align-self: start;
     padding-right:5%;
-    
   }
 
 .hImg{
@@ -134,7 +128,6 @@ a:link {
 .container {
     width: 80%;
     margin: 0 auto;
-   
 }
 
 .top-content {
@@ -155,8 +148,6 @@ a:link {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
-
 
 .middle-content h2 {
     padding: 0 2%;
@@ -236,6 +227,7 @@ a:link {
 footer {
     width: 100%;
     background: black;
+    color:white;
 }
 
 footer nav {
@@ -245,9 +237,10 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    color:white;
 }
 
-footer nav a {
+footer nav a{
     color: white;
     text-decoration: none;
 }
@@ -292,3 +285,7 @@ button{
     border-bottom: dashed 1px;
     margin-left:2vh;
 } 
+
+.navFoot{
+    color:white;
+}
