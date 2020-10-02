@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,8 +67,66 @@ p {
     line-height: 1.4;
 }
 
+
+
+nav {
+    
+    display:flex;
+    justify-content: flex-start;
+    align-content: space-around;
+    margin:5%;
+    padding:5%;
+}
+
+
+
+.aHref{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 2%;
+    font-size: 14px;
+    /* color:black; */
+}
+
+a:link {
+    text-decoration: none;
+    
+  }
+  
+  a:visited {
+    text-decoration: none;
+    /* color:gray; */
+  }
+  
+  /* a:hover {
+    background-color:white;
+    border:black 1px solid;
+    border-radius:5px;
+    padding:.9% 2% .9% 2%;
+  } */
+  
+  a:active {
+    color:gray;
+    text-decoration: none;
+  }
+/*this is the image in the nav*/
+.img{
+    display: flex;
+    justify-content: flex-end;
+    align-self: start;
+    padding-right:5%;
+  }
+
+.hImg{
+    display:flex;
+    justify-content: center;
+
+}/*this is the header img that splits the body from the head*/
+
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -111,6 +170,45 @@ p {
     align-items: center;
     justify-content: center;
 }
+/*in order for the boxes to have the colors, I added id's to each of the boxes*/
+#box1{
+    background:teal;
+}
+
+#box2{
+    background:gold;
+}
+
+#box3{
+    background:cadetblue;
+}   
+
+#box4{
+    background:coral;
+}
+
+#box4{
+    background:coral;
+}
+
+#box5{
+    background:crimson;
+}
+#box6{
+    background:forestgreen;
+}
+#box7{
+    background:darkorchid;
+}
+#box8{
+    background:hotpink;
+}
+#box9{
+    background:indigo;
+}
+#box10{
+    background:dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -129,6 +227,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    color:white;
 }
 
 footer nav {
@@ -138,9 +237,55 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    color:white;
 }
 
-footer nav a {
+footer nav a{
     color: white;
     text-decoration: none;
+}
+
+/*this is more specific styling for the about page*/
+button{
+    background-color:white;
+    border:black 2px solid;
+    border-radius:5px;
+    padding:.9% 2% .9% 2%;
+}
+
+.aboutCont1{
+    display:flex;
+    justify-content: column;
+    border-top: dashed 1px;
+
+}
+
+.section1{
+    padding:2%;
+    border-bottom: dashed 1px;
+   
+}
+.section2{
+    padding:2%;
+    border-bottom: dashed 1px;
+    margin-left:2vh;
+}
+
+.aboutCont2{
+    display:flex;
+    justify-content: column;
+
+}
+ .section3{
+    padding:2%;
+    border-bottom: dashed 1px;
+}
+.section4{
+    padding:2%;
+    border-bottom: dashed 1px;
+    margin-left:2vh;
+} 
+
+.navFoot{
+    color:white;
 }
