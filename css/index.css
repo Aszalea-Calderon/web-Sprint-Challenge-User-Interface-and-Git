@@ -90,6 +90,8 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -110,6 +112,45 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/*in order for the boxes to have the colors, I added id's to each of the boxes*/
+#box1{
+    background:teal;
+}
+
+#box2{
+    background:gold;
+}
+
+#box3{
+    background:cadetblue;
+}   
+
+#box4{
+    background:coral;
+}
+
+#box4{
+    background:coral;
+}
+
+#box5{
+    background:crimson;
+}
+#box6{
+    background:forestgreen;
+}
+#box7{
+    background:darkorchid;
+}
+#box8{
+    background:hotpink;
+}
+#box9{
+    background:indigo;
+}
+#box10{
+    background:dodgerblue;
 }
 
 .bottom-content {
