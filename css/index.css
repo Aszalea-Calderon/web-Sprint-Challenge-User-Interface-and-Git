@@ -110,12 +110,15 @@ a:link {
   }
   
   a:hover {
-    color:crimson;
-    background-color: ;
+    background-color:white;
+    border:black 1px solid;
+    border-radius:5px;
+    padding:.9% 2% .9% 2%;
   }
   
   a:active {
-    text-decoration: underline;
+    color:gray;
+    text-decoration: none;
   }
 /*this is the image in the nav*/
 .img{
@@ -136,9 +139,6 @@ justify-content: center;
     width: 800px;
     margin: 0 auto;
 }
-
-
-
 
 .top-content {
     display: flex;
@@ -253,4 +253,27 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*this is more specific styling for the about page*/
+button{
+    background-color:white;
+    border:black 2px solid;
+    border-radius:5px;
+    padding:.9% 2% .9% 2%;
+}
+
+.section1{
+    display:flex;
+    justify-content: space-around;
+}
+.section2{
+     display:flex;
+    justify-content: space-around;
+}
+.section3{
+
+}
+.section4{
+
 }
